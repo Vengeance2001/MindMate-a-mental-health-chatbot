@@ -1,0 +1,292 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Is anyone there?",
+        "Hi there",
+        "Hello",
+        "Hey there"
+      ],
+      "responses": [
+        "Hello! How are you feeling today? I'm here for you.",
+        "Hi there! What's going on in your mind today?",
+        "Hi, it's good to see you! How are you feeling today?",
+        "Hey there! Tell me how you're doing today."
+      ]
+    },
+    {
+      "tag": "morning",
+      "patterns": ["Good morning"],
+      "responses": [
+        "Good morning! I hope you had a restful sleep. How are you feeling today?"
+      ]
+    },
+    {
+      "tag": "afternoon",
+      "patterns": ["Good afternoon"],
+      "responses": [
+        "Good afternoon! How has your day been so far? How are you feeling?"
+      ]
+    },
+    {
+      "tag": "evening",
+      "patterns": ["Good evening"],
+      "responses": [
+        "Good evening! How has your day been? I’m here if you want to talk."
+      ]
+    },
+    {
+      "tag": "night",
+      "patterns": ["Good night"],
+      "responses": [
+        "Good night! Take care and try to relax. I'm here if you need to talk."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Au revoir",
+        "Sayonara",
+        "ok bye",
+        "Bye then"
+      ],
+      "responses": [
+        "Take care. See you soon! Don't hesitate to reach out when you need me."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thanks for the help",
+        "Thank you very much"
+      ],
+      "responses": [
+        "You're very welcome! I'm always here to help you.",
+        "Glad to be of help. Let me know if you need anything else.",
+        "Anytime! You matter, and I’m here to listen."
+      ]
+    },
+    {
+      "tag": "no-response",
+      "patterns": [""],
+      "responses": [
+        "I’m here if you want to talk. Let me know what's on your mind."
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "Who are you?",
+        "What are you?",
+        "Tell me more about yourself.",
+        "What is your name?"
+      ],
+      "responses": [
+        "I’m MindMate, your friendly mental health chatbot here to help you talk through things and feel better."
+      ]
+    },
+    {
+      "tag": "skill",
+      "patterns": ["What can you do?"],
+      "responses": [
+        "I’m here to listen to your feelings, offer support, and help you feel heard. I can also help with mindfulness exercises and guide you through relaxation techniques."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Could you help me?",
+        "Can you help?",
+        "I need support",
+        "I need help"
+      ],
+      "responses": [
+        "Of course! I'm here for you. What’s bothering you? Let’s talk about it."
+      ]
+    },
+    {
+      "tag": "sad",
+      "patterns": [
+        "I feel sad",
+        "I feel down",
+        "I’m so lonely",
+        "I feel empty"
+      ],
+      "responses": [
+        "I'm really sorry you're feeling this way. You don't have to go through it alone. Do you want to talk about why you're feeling sad?"
+      ]
+    },
+    {
+      "tag": "stressed",
+      "patterns": ["I feel so stressed", "I’m overwhelmed", "I’m burned out"],
+      "responses": [
+        "Stress can feel so heavy. Let's take a deep breath together. Can you pinpoint what's causing your stress?"
+      ]
+    },
+    {
+      "tag": "worthless",
+      "patterns": ["I feel worthless", "No one likes me", "I'm useless"],
+      "responses": [
+        "I'm really sorry you're feeling this way, but I want you to know that you matter. Let’s talk about what’s making you feel this way."
+      ]
+    },
+    {
+      "tag": "depressed",
+      "patterns": ["I feel so depressed", "I think I’m depressed"],
+      "responses": [
+        "I'm really sorry you're feeling this way. It can help to talk through your feelings. Would you like to share more?"
+      ]
+    },
+    {
+      "tag": "happy",
+      "patterns": ["I feel happy", "I'm feeling good", "I'm cheerful"],
+      "responses": ["That’s wonderful to hear! What made you feel this way?"]
+    },
+    {
+      "tag": "anxious",
+      "patterns": ["I feel so anxious", "I’m anxious about something"],
+      "responses": [
+        "It’s okay to feel anxious sometimes. What’s making you feel this way? Let's work through it together."
+      ]
+    },
+    {
+      "tag": "not-talking",
+      "patterns": ["I don't want to talk about it"],
+      "responses": [
+        "That’s okay. Take your time. When you're ready, I’m here for you."
+      ]
+    },
+    {
+      "tag": "suicide",
+      "patterns": ["I want to kill myself", "I want to die"],
+      "responses": [
+        "I'm really sorry you're feeling this way, but I need you to reach out to someone immediately for support. Your life is so important. You can contact a professional at: 9152987821."
+      ]
+    },
+    {
+      "tag": "death",
+      "patterns": ["My mom died", "My brother died", "My dad passed away"],
+      "responses": [
+        "I'm so sorry for your loss. Grieving can be hard, and I’m here to listen if you want to talk about it."
+      ]
+    },
+    {
+      "tag": "understand",
+      "patterns": ["You don't understand me"],
+      "responses": [
+        "I’m sorry if it feels like I’m not understanding. Please share more about what you're going through, and I'll do my best to listen."
+      ]
+    },
+    {
+      "tag": "done",
+      "patterns": ["That's all.", "Nothing else."],
+      "responses": [
+        "I hear you. Take care of yourself. I'm here when you need me."
+      ]
+    },
+    {
+      "tag": "wrong",
+      "patterns": ["That doesn’t make sense"],
+      "responses": [
+        "I’m sorry for any confusion. Let's try again and clarify things."
+      ]
+    },
+    {
+      "tag": "problem",
+      "patterns": ["I’m stressed about exams", "I feel pressure from school"],
+      "responses": [
+        "It’s understandable to feel stressed with exams. What steps have you taken to manage that stress?"
+      ]
+    },
+    {
+      "tag": "no-approach",
+      "patterns": ["I haven’t tried anything yet", "no approach yet"],
+      "responses": [
+        "No problem, I’m here to help. How about we explore some relaxation techniques together?"
+      ]
+    },
+    {
+      "tag": "learn-more",
+      "patterns": ["I want to learn more about stress management"],
+      "responses": [
+        "It’s important to take breaks and practice self-care. Sometimes stepping back from a problem helps. Would you like to explore some techniques together?"
+      ]
+    },
+    {
+      "tag": "meditation",
+      "patterns": ["I would like to try meditation"],
+      "responses": [
+        "Great choice! Try focusing on your breath. Breathe in slowly through your nose, and then breathe out slowly through your mouth. Keep focusing on your breath. If your mind starts to wander, gently bring it back to your breath."
+      ]
+    },
+    {
+      "tag": "exercise",
+      "patterns": [
+        "What exercises can I do?",
+        "I want to get active",
+        "Can you suggest some exercises?"
+      ],
+      "responses": [
+        "Exercise is a great way to boost your mood and reduce stress. How about starting with a quick walk, or some stretching? I can also guide you through a short workout. Would you like that?"
+      ]
+    },
+    {
+      "tag": "back-pain",
+      "patterns": ["I have back pain", "My back hurts"],
+      "responses": [
+        "Back pain can be tough. Gentle stretches like child’s pose or cat-cow might help. If the pain persists, it’s always good to check with a healthcare professional."
+      ]
+    },
+    {
+      "tag": "headache",
+      "patterns": ["I have a headache", "My head hurts"],
+      "responses": [
+        "Headaches can be caused by stress, dehydration, or lack of sleep. Try resting in a quiet room, drinking some water, and practicing deep breathing. If it continues, consider reaching out to a healthcare professional."
+      ]
+    },
+    {
+      "tag": "insomnia",
+      "patterns": [
+        "I can't sleep",
+        "I have trouble sleeping",
+        "I'm having insomnia"
+      ],
+      "responses": [
+        "Insomnia can be tough. Try creating a calming bedtime routine like reading or meditating before sleep. Avoid screens and caffeine before bed. If it continues, it’s important to speak to a doctor."
+      ]
+    },
+    {
+      "tag": "fatigue",
+      "patterns": ["I'm so tired", "I feel exhausted"],
+      "responses": [
+        "Fatigue can be caused by many factors, like stress, poor sleep, or lack of rest. Try to prioritize sleep, hydrate, and take breaks during your day. How have you been managing your energy levels?"
+      ]
+    },
+    {
+      "tag": "exercise-stretching",
+      "patterns": [
+        "Can you suggest some stretching exercises?",
+        "What stretches can I do?"
+      ],
+      "responses": [
+        "Stretching is a great way to relieve tension. Here are a few simple stretches you can try: Try a basic neck stretch by gently tilting your head from side to side. Try a shoulder roll to release tension in your shoulders, and do a forward bend stretch to release your back."
+      ]
+    },
+    {
+      "tag": "nutrition",
+      "patterns": ["What should I eat for energy?", "How can I eat healthier?"],
+      "responses": [
+        "Eating a balanced diet with whole grains, lean proteins, and plenty of fruits and vegetables can boost your energy. Stay hydrated and avoid too much caffeine or sugar. Let me know if you'd like tips on specific foods or meal plans."
+      ]
+    }
+  ]
+}
