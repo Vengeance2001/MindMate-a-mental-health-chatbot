@@ -34,7 +34,7 @@ the following command to test it in the console.
 $ (venv) python chat.py
 ```
 To run the frontend version run below command in the terminal
-...
-$ flask run 
-...
+```
+$ (venv) flask run
+```
 
