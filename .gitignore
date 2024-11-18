@@ -1,4 +1,3 @@
-venv
-standalone-frontend
-intents.json
-intents02.json
+*env
+*venv
+
